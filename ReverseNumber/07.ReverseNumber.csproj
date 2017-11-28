@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7EC469EB-ED57-4DD6-99C0-05217544F7B2}</ProjectGuid>
+    <ProjectGuid>{2E73AC95-DDF7-4AED-8751-A82BE6997A57}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>FirstLargerThanNeighbours</RootNamespace>
-    <AssemblyName>FirstLargerThanNeighbours</AssemblyName>
+    <RootNamespace>ReverseNumber</RootNamespace>
+    <AssemblyName>ReverseNumber</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FirstLarger.cs" />
+    <Compile Include="Reverse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

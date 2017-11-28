@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7EC469EB-ED57-4DD6-99C0-05217544F7B2}</ProjectGuid>
+    <ProjectGuid>{6B0D6908-F9DF-4347-BE62-3BB4604A9DE1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>FirstLargerThanNeighbours</RootNamespace>
-    <AssemblyName>FirstLargerThanNeighbours</AssemblyName>
+    <RootNamespace>NumberAsArray</RootNamespace>
+    <AssemblyName>NumberAsArray</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,11 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FirstLarger.cs" />
+    <Compile Include="NumAsArr.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Project>{e7a3c44a-b8a4-4d42-b30b-e30097ec7ad9}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
