@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Util
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.SortingArray", "SortingArray\09.SortingArray.csproj", "{54B5A724-16C8-4BBA-A5CD-E4486B91AEDE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.NFactorial", "NFactorial\10.NFactorial.csproj", "{D7D6D82A-F3A4-4531-B532-426F279B56D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.AddingPolynomials", "AddingPolynomials\11.AddingPolynomials.csproj", "{BAD2517D-706D-42B0-88C9-F73B4550EFFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{54B5A724-16C8-4BBA-A5CD-E4486B91AEDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54B5A724-16C8-4BBA-A5CD-E4486B91AEDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54B5A724-16C8-4BBA-A5CD-E4486B91AEDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7D6D82A-F3A4-4531-B532-426F279B56D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D6D82A-F3A4-4531-B532-426F279B56D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D6D82A-F3A4-4531-B532-426F279B56D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7D6D82A-F3A4-4531-B532-426F279B56D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAD2517D-706D-42B0-88C9-F73B4550EFFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD2517D-706D-42B0-88C9-F73B4550EFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD2517D-706D-42B0-88C9-F73B4550EFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD2517D-706D-42B0-88C9-F73B4550EFFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

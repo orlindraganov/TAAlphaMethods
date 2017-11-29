@@ -8,7 +8,7 @@
     {
         static void Main()
         {
-            var unneededArraySort = int.Parse(Console.ReadLine());
+            var unneededArraySize = Console.ReadLine();
 
             var arr = ParseIntArr(Console.ReadLine());
 
@@ -17,7 +17,7 @@
             Console.WriteLine(ParseString(arr));
         }
 
-        private static string ParseString(int[] arr, char separator =' ')
+        private static string ParseString(int[] arr, char separator = ' ')
         {
             var builder = new StringBuilder();
 
@@ -36,15 +36,7 @@
 
             for (int i = 0; i < input.Length - 1; i++)
             {
-                if ((isAscending) && (input[i] > input[i + 1]))
-                {
-                    input[i] = input[i] ^ input[i + 1];
-                    input[i + 1] = input[i] ^ input[i + 1];
-                    input[i] = input[i] ^ input[i + 1];
-
-                    flipsCounter++;
-                }
-                if ((!isAscending) && (input[i] < input[i+1]))
+                if (((isAscending) && (input[i] > input[i + 1])) || ((!isAscending) && (input[i] < input[i + 1])))
                 {
                     input[i] = input[i] ^ input[i + 1];
                     input[i + 1] = input[i] ^ input[i + 1];
@@ -62,7 +54,7 @@
             return input;
         }
 
-        private  static int[] ParseIntArr(string str, char separator = ' ')
+        private static int[] ParseIntArr(string str, char separator = ' ')
         {
             int[] numbers = str.Split(new char[] { separator }, StringSplitOptions.RemoveEmptyEntries).Select(s => int.Parse(s)).ToArray();
 
